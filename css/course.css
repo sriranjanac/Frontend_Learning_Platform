@@ -1,0 +1,281 @@
+/* ==  STYLING FOR COURSE PAGES - nav from HEADER */
+
+
+/* COURSE BANNER STYLING */
+
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-color: azure;
+    overflow-x: hidden;
+    
+   
+}
+
+
+.course-banner {
+    margin-top: 100px;
+    min-height: 200px;
+    width: 100%;
+    background-color: #192949;
+    color: azure;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+
+.course-banner .left {
+    width: 40%; 
+}
+
+.course-banner .right {
+    width: 50%; 
+}
+
+
+/* PAGE HEADING */
+.page-heading h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin: 50px auto;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #001b48;
+    max-width: 600px;
+    position:relative;
+    
+    }
+.page-heading h1:before{
+    content: "";
+    display:block;
+    width: 120px;
+    height:3px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+    }
+   .page-heading h1:after{
+    content: "";
+    display:block;
+    width: 120px;
+    height:3px;
+    background: #000;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -2;
+    }
+    span{
+    background: antiquewhite
+    }
+
+
+
+/* LEARN ONLINE FLEXBOXES */
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation: slide-in 1s ease-out;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.main-card {
+    background-color:azure;
+    width: 250px;
+    height: 415px;
+    margin: 30px;
+    border-radius: 15px;border: 1.5px solid #192949; /* Adds a border with a light gray color */
+    box-shadow: 0 4px 8px #001b48; /* Adds a border with a light gray color */
+    transition: all 0.3s ease;
+    
+}
+
+.main-card:hover{
+    transform: scale(1.06);
+}
+
+
+
+.main-card-image {
+    background-color: aqua;
+    height: 200px;
+    margin-bottom: 20px;
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+
+/* Images in Course card */
+
+.pic-1 {
+    background-image: url(images/Course_page/1.jpg);
+
+}
+
+.pic-2 {
+    background-image: url(images/Course_page/2.jpg);
+
+}
+
+.pic-3 {
+    background-image: url(images/Course_page/3.png);
+
+}
+
+.pic-4 {
+    background-image: url(images/Course_page/4.png);
+
+}
+
+.pic-5 {
+    background-image: url(images/Course_page/5.png);
+
+}
+
+.pic-6 {
+    background-image: url(images/Course_page/6.png);
+
+}
+
+.pic-7 {
+    background-image: url(images/Course_page/7.png);
+
+}
+
+.pic-8 {
+    background-image: url(images/Course_page/8.png);
+
+}
+
+.pic-9 {
+    background-image: url(images/Course_page/9.png);
+
+}
+
+.pic-10 {
+    background-image: url(images/Course_page/10.png);
+
+}
+
+.pic-11 {
+    background-image: url(images/Course_page/11.png);
+
+}
+
+.pic-12 {
+    background-image: url(images/Course_page/12.png);
+
+}
+
+.pic-13 {
+    background-image: url(images/Course_page/13.png);
+
+}
+.pic-14 {
+    background-image: url(images/Course_page/14.png);
+
+}
+.pic-15 {
+    background-image: url(images/Course_page/15.png);
+
+}
+.pic-16 {
+    background-image: url(images/Course_page/16.png);
+
+}
+
+
+
+
+
+/* BUTTON */
+.main-card .btn {
+    color: azure;
+    background-color:#043a98;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 220px;
+}
+
+/* RATING STAR */
+.main-star-container span {
+    background-color: azure;
+}
+
+.main-card .main-star-container {
+    position: absolute;
+    margin-left: 120px;
+    transform: translate(-50%, -50%);
+    margin-bottom: 10px;
+    margin-top: 8px;
+    
+}
+
+.checked{
+    color: orange;
+  }
+
+/* COURSE TITLE */
+
+.main-card h2 {
+    color: #192949;
+    margin-top: 45px;
+    text-align: center;
+    
+    
+}
+
+.main-card .divider {
+    color: #192949;
+    border: 1.3px solid #192949;
+    width: 90%;
+    margin-left: 13px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.main-card .divright {
+    display: flex;
+    gap: 7px;
+    justify-content: right;
+    color: #192949;
+    margin-top: 7px;
+    margin-right: 9px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.divright i{
+    margin-top: 4px ;
+    font-size: 15px;
+}
+
+.main-card .divleft p{
+    font-size: 17px;
+    color: #192949;
+    margin-top: -24px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+
+
+
+
