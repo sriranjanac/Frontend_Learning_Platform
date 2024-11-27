@@ -1,11 +1,11 @@
 # LearnoHub_Frontend_Project
 
-LearnOHub is an innovative and user-friendly online learning platform designed to provide a seamless learning experience with a focus on interactivity and simplicity
-**Note-Taking Functionality:** Take notes while watching lectures and save them as PDF files for future reference.
+- LearnOHub is an innovative and user-friendly online learning platform designed to provide a seamless learning experience with a focus on interactivity and simplicity
+- **Note-Taking Functionality:** Take notes while watching lectures and save them as PDF files for future reference.
 
 🌟 **Technical Features**
-**Responsive Design**: Fully optimized for use on desktops, tablets, and mobile devices.
-**Frontend Development**: Built from scratch using HTML and CSS, with no frameworks.
+- **Responsive Design**: Fully optimized for use on desktops, tablets, and mobile devices.
+- **Frontend Development**: Built from scratch using HTML and CSS, with no frameworks.
 
 📥 **Working**
 - Clone the repository
