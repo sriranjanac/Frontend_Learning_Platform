@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;  
+}
+
+.holder {
+    display: flex;
+    gap: 20px; /* Add some space between the flex items */
+    flex-wrap: wrap; /* Allow wrapping of items if necessary */
+    flex-direction: column;
+}
+
+
+h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 36px;
+    text-align: center;
+    margin: 40px;
+    color: azure;
+}
+
+.yt-holder {
+    justify-content: center;
+    position: relative;
+    margin-left: 30px;
+    height: 500px;
+    width: 750px;
+    border: 1px solid azure;
+}
+
+.yt-holder iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* NOTES */
+
+.wrapper{
+    margin-left: 830px;
+    margin-top: -520px;
+    width: 400px;
+    border-radius: 7px;
+    background: azure;
+    padding: 30px 25px 40px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.05);
+  }
+  .wrapper :where(textarea, input, select, button){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+  .wrapper :where(textarea, input)::placeholder{
+    color: #aaa;
+  }
+  .wrapper :where(textarea, input):focus{
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.08);
+  }
+  .wrapper textarea{
+    height: 270px;
+    resize: none;
+    padding: 8px 13px;
+    font-size: 17.6px;
+    border: 1px solid #ccc;
+  }
+  .wrapper .file-options{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .file-options .option{
+    width: calc(100% / 2 - 8px);
+  }
+  .option label{
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .option :where(input, .select-menu){
+    height: 50px;
+    padding: 0 13px;
+    margin-top: 6px;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+  }
+  .option .select-menu select{
+    height: 50px;
+    background: none;
+  }
+  .wrapper .save-btn{
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    opacity: 0.6;
+    padding: 16px 0;
+    margin-top: 20px;
+    pointer-events: none;
+    background: orange;
+  }
+  .save-btn:hover{
+    background: orange;
+  }
+  textarea:valid ~ .save-btn{
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0.3s ease;
+  }
+  @media screen and (max-width: 475px) {
+    .wrapper{
+      padding: 25px 18px 30px;
+    }
+    .wrapper :where(textarea, input, select, button, label){
+      font-size: 16px!important;
+    }
+    .file-options .option{
+      width: calc(100% / 2 - 5px);
+    }
+    .option :where(input, .select-menu){
+      padding: 0 10px;
+    }
+    .wrapper .save-btn{
+      padding: 15px 0;
+    }
+  }
