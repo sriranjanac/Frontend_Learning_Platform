@@ -12,3 +12,5 @@
 - Navigate to the project directory
 - Open index.html in the web browser
 - Watch Lectures and Take Notes: Use the note-taking feature to jot down important points during lectures. Save your notes as PDF files for easy offline access.
+
+![Screenshot 2024-11-27 110357](https://github.com/user-attachments/assets/071ed924-110c-4e91-ab72-efcb318680c0)
